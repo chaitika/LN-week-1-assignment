@@ -20,7 +20,7 @@ services:
       - ln-network
 
   cln:
-    image: elementsproject/lightningd:latest
+    image: elementsproject/lightningd:v23.11
     container_name: ln-node
     depends_on:
       - bitcoind
